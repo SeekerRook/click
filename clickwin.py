@@ -12,7 +12,7 @@ def header():
     print ("#      #      #   #      ## ")
     print (" #     #      #    #     # # ")
     print ("  ###  ####  ###    ###  #  #")
-    print ("     by SeekerRook20485 ")
+    print ("     by SeekerRook ")
     print("")
 
 
@@ -20,9 +20,9 @@ def Click():
 
     try:
         header()    
-        f = int(input('Enter Desired Click Delay in seconds(0 for as fast as posible):'))
+        f = float(input('Enter Desired Click Delay in seconds(0 for as fast as posible):'))
         header()
-        n = float(input('Enter Number of Clicks(0 for Infinite):'))
+        n = int(input('Enter Number of Clicks(0 for Infinite):'))
         header()
         print("")  
         print ("CAUTION: You are strongly recomended to make this window always visible.")
@@ -33,7 +33,7 @@ def Click():
                 print('click')
                 pyautogui.click()                
                 time.sleep(f)
-                selector()
+            selector()
         else :
             while True:
                 print('click')

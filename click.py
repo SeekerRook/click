@@ -12,7 +12,7 @@ def header():
     print ("#      #      #   #      ## ")
     print (" #     #      #    #     # # ")
     print ("  ###  ####  ###    ###  #  #")
-    print ("     by SeekerRook20485 ")
+    print ("     by SeekerRook ")
     print("")
 
 
@@ -33,7 +33,7 @@ def Click():
                 print('click')
                 pyautogui.click()                
                 time.sleep(f)
-                selector()
+            selector()
         else :
             while True:
                 print('click')
